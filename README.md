@@ -21,7 +21,7 @@ Sorry 😔 I can create this only for kali linux not termux you can root the kal
 - `apt upgrade -y`
 - `apt install git -y`
 - `apt install python3 -y`
--  `git clone https://github.com/NSHACKING/NS-TOOLS.git`
+-  `gitclonehttps://github.com/NS-HACK777/NS-TOOLS.git`
 -  `cd NS-TOOLS`
 -  `python3 setup.py`
 -  `python3 ns-tools.py`
