@@ -9,7 +9,7 @@ y = "\033[93m"
 v = "\033[94m"
 g = "\033[92m"
 
-# Create a banne NS HACK
+# Create a banne NAVEJAS 
 print ("\033[92m")
 
 def banner():
